@@ -1,0 +1,373 @@
+.flex_block {
+    display: flex;
+}
+
+.flex_block_container {
+    display: flex;
+}
+
+.h1Text {
+    font-family: 'Ferry';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.marginLog {
+    margin-left: 60px;
+}
+
+.picCharacters {
+    margin-left: 176px;
+    height: 343px;
+
+    background: url("../../pictures/login/Characters.svg") no-repeat;
+}
+
+.loginBlock {
+    width: 429px;
+    height: 523px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.picLock {
+    margin-left: 60px;
+    margin-right: -130px;
+    position: relative;
+    width: 75.22px;
+    height: 92.06px;
+    background-image: url("../../pictures/login/lock.svg");
+}
+
+.logInText {
+
+    width: 49px;
+    height: 19px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #029491;
+}
+
+.logInText:hover {
+    cursor: pointer;
+}
+
+.loginMenu {
+    margin-left: 25px;
+}
+
+.loginLine {
+
+    width: 151px;
+    height: 2px;
+    left: 895px;
+    top: 214px;
+
+    background: #029491;
+}
+
+
+
+.registrMenuText {
+    width: 170px;
+    height: 19px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #C7C7C7;
+}
+
+.registrMenuText:hover {
+    cursor: pointer;
+}
+
+.registrLine {
+    width: 213px;
+    height: 2px;
+    left: 1061px;
+    top: 214px;
+
+    background: #C7C7C7;
+}
+
+.textLoginBox {
+    width: 227px;
+    height: 19px;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #949494;
+}
+
+.input {
+    width: 379px;
+    height: 43px;
+
+
+    background: #FFFFFF;
+    border: 1px solid #C7C7C7;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.buttonLogIn {
+    width: 379px;
+    height: 59px;
+
+    border: none;
+    outline: none;
+    background: #b8bcd3;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+}
+
+.backupPassword {
+    width: 194px;
+    height: 17px;
+    border: none;
+    outline: none;
+    margin-left: 96px;
+
+    background-color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    margin-top: 7px;
+
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+
+    color: #5970FF;
+}
+
+.backupPassword:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.picGoogle {
+    width: 59.46px;
+    height: 19.57px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+    background-image: url("../../pictures/login/google.svg");
+}
+
+.blockAlterLog {
+    margin-left: 8px;
+    margin-top: -4px;
+    background: #FFFFFF;
+    border: 1px solid rgba(89, 112, 255, 0.51);
+    border-radius: 3px;
+    width: 96px;
+    height: 31px;
+}
+
+.blockAlterLog:hover {
+    transform: scale(1.1);
+}
+
+.linkLogin:hover {
+    cursor: pointer;
+}
+
+.picFaceBook {
+    width: 59.46px;
+    height: 19.57px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+    background-image: url("../../pictures/login/FaceBook1.svg");
+}
+
+.picYandex {
+    width: 59.46px;
+    height: 19.57px;
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 5px;
+    background-image: url("../../pictures/login/yandex1.svg");
+}
+
+
+.inputErr {
+    width: 379px;
+    height: 43px;
+
+    color: red;
+    background: #FFFFFF;
+    border: 1px solid #fa0505;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.textErr {
+    width: 203px;
+    height: 17px;
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.01em;
+
+    color: #FF5959;
+}
+
+.buttonLogInValidTrue {
+
+    width: 379px;
+    height: 59px;
+
+    border: none;
+    outline: none;
+    background: #3b52e6;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+.buttonLogInValidTrue:hover {
+    background: #3544a7;
+}
+
+.buttonLogInValidTrue:active {
+    background: #3b52e6;
+    box-shadow: 0 3px #3b52e6 inset;
+}
+
+
+@media (max-device-width: 1150px) {
+
+    .h1Text {
+        font-size: 22px;
+        line-height: 26.4px;
+    }
+    
+    .flex_block_container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marginLog {
+        margin: 0;
+    }
+
+    .picCharacters {
+        margin: 0;
+        transform: scale(0.8);
+    }
+
+    .picLock {
+        margin-left: 110px;
+    }
+
+    .loginBlock {
+        margin-left: -10px;
+        transform: scale(0.8);
+    }
+}
+
+
+@media screen and (max-width: 1150px) {
+    
+    .h1Text {
+        font-size: 22px;
+        line-height: 26.4px;
+    }
+    
+    .flex_block_container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .marginLog {
+        margin: 0;
+    }
+
+    .picCharacters {
+        margin: 0;
+        transform: scale(0.8);
+    }
+
+    .picLock {
+        margin-left: 110px;
+    }
+
+    .loginBlock {
+        margin-left: -10px;
+        transform: scale(0.8);
+    }
+}

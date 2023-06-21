@@ -1,0 +1,54 @@
+.footer {
+    background: #029491;
+    position: relative;
+    height: 137px;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scan {
+    width: 141px;
+    height: 111px;
+    left: 60px;
+    top: -24px;
+    margin-left: 60px;
+    background-image: url("../../pictures/footer/logoFooter.svg");
+}
+
+
+.text_style {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.footer_info {
+    margin-right: 45px;
+}
+
+@media (max-device-width: 930px) {
+
+    .scan {
+        transform: scale(0.8);
+        margin-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 930px) {
+    
+    .scan {
+        transform: scale(0.8);
+        margin-left: 0;
+    }
+
+}
