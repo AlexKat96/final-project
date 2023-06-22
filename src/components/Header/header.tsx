@@ -67,17 +67,31 @@ const Header: React.FC = () => {
             loginIn()
             
             const a = function (): void {
-                setIsLoading(false)
-            }
-            setTimeout(a, 3000);
 
+                setIsLoading(false)
+
+            }
+
+            setTimeout(a, 3000);
             
             setNeedUpdate(false)
+        }
 
+    }
 
+    const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+  
+        localStorage.clear();
+        const a = function (): void {
+
+            window.location.reload();
 
         }
+
+        setTimeout(a, 500);
+        
     }
+
     return (
         <header className={css.header}>
             <div className={css.header_content}>
@@ -130,7 +144,9 @@ const Header: React.FC = () => {
                 <div className={css.flex}>
                     <div className={css.blockProfil}>
                         <p className={css.userTextProfil}>User</p>
-                        <button className={css.button_exit}>Выйти</button>
+                        <Link to={`/`} >
+                            <button className={css.button_exit} type={"button"} onClick={ (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => handleClick(e) }>Выйти</button>
+                        </Link>
                     </div>
                     <div className={css.userIcon}></div>
                 </div>
